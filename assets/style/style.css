@@ -1,0 +1,73 @@
+         
+body {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: #000;
+    color: #cc9900;
+}
+
+div.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    width: 50vh;
+    font-family: 'alarm clock', sans-serif;
+}
+
+div#display {
+    font-size: 4em;
+}
+
+div#button-container {
+    padding: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+}
+
+.button {
+    height: 3.5em;
+    width: 7em;
+    border-radius: 2em;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.button:hover {
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.button-start {
+    background-color: #33cc33;
+}
+
+.button-start:hover {
+    background-color: #248f24;
+}
+
+.button-stop {
+    background-color: #ff0000;
+}
+
+.button-stop:hover {
+    background-color: #b30000;
+}
+
+.button-reset {
+    background-color: #e6e600;
+}
+
+.button-reset:hover {
+    background-color: #b3b300;
+}
+
+.button-reset:disabled {
+    background-color: #fff3cc;
+    color: #ccc;
+}
